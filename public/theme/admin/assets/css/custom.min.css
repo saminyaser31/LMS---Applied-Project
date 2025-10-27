@@ -1,0 +1,57 @@
+
+/*# sourceMappingURL=custom.min.css.map */
+
+.edit-images-preview-div a img,
+.edit-product-main-image a img{
+    cursor:initial;
+}
+
+.product-image-delete-btn{
+    color:red;
+    position: relative;
+    top: -35px;
+    right: 25px;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+|--------------------------------------------------------------------------
+|
+| Invoice Printing page
+|
+|--------------------------------------------------------------------------
+|--------------------------------------------------------------------------
+*/
+
+@media print {
+    .noprint {
+       /* visibility: hidden; */
+       display: none;
+    }
+}
+
+.printableTable thead th{
+    font-weight:800!important;
+}
+
+
+/* Custom Horizontal line */
+
+.lineHorizontal__container {
+    align-items: center;
+    display: flex;
+    height: 5px;
+}
+
+.lineHorizontal__container--rightAligned {
+    justify-content: flex-end;
+}
+
+.lineHorizontal {
+    border-top: 1px solid black;
+}
+
+.lineHorizontal--short {
+    width: 35%;
+}
